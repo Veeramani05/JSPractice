@@ -1,0 +1,2 @@
+# JSPractice
+JavaScript small problems
