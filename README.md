@@ -2,15 +2,7 @@
 
 JavaScript small problems
 
-<style>
-    *{
-        padding: 0;
-        margin: 0;
-        font-family: Consolas;
-    } 
-</style>
-
-#1.
+# 1.
 
 ```javascript
 console.log(1);
@@ -40,6 +32,6 @@ setTimeout(() => {
   console.log(9);
 }, 0);
 ```
-_Ans: 1,2,3,4,7,5,6,9,8_
+==_Ans: 1,2,3,4,7,5,6,9,8_==
 
 ---
