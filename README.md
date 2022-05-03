@@ -31,7 +31,23 @@ setTimeout(() => {
 setTimeout(() => {
   console.log(9);
 }, 0);
+
+// Ans : 1,2,3,4,7,5,6,9,8
 ```
-==_Ans: 1,2,3,4,7,5,6,9,8_==
 
 ---
+
+# 2.
+```javascript
+new Promise((resolve, reject) => {
+    resolve(1)
+    resolve(2)
+    reject('error')
+  }).then((value) => {
+    console.log(value)
+  }, (error) => {
+    console.log('error')
+  })
+
+  // Ans : 1
+```
