@@ -1,7 +1,8 @@
 # JSPractice
+
 JavaScript small problems
 
-`
+<pre>
 /**
  *  Ans: 1,2,3,4,7,5,6,9,8
  */
@@ -29,4 +30,4 @@ setTimeout(() => {
 setTimeout(() => {
   console.log(9)
 }, 0)
-`
+</pre>
