@@ -53,7 +53,7 @@ new Promise((resolve, reject) => {
 
 // Ans : 1
 ```
-
+# 3.
 ```javascript
 Promise.resolve(1)
   .then(() => 2)
@@ -64,7 +64,7 @@ Promise.resolve(1)
 
 // Ans : 6
 ```
-
+# 4.
 ```javascript
 Promise.resolve(1)
   .then((val) => {
@@ -97,7 +97,7 @@ Promise.resolve(1)
 
 // Ans: 1,2,undefined, 3,undefined,4, undefined, undefined
 ```
-
+# 5.
 ```javascript
 for (var i = 0; i < 5; i++) {
   setTimeout(() => console.log(i), 0); // 5,5,5,5,5
@@ -108,7 +108,7 @@ for (let i = 0; i < 5; i++) {
 }
 //Ans : 0,1,2,3,4
 ```
-
+# 6.
 ```javascript
 const obj = {
   dev: "VEERA",
@@ -155,7 +155,7 @@ console.log(obj.g()); // undefined
 console.log(obj.h()()); // undefined
 console.log(obj.i()()); // undefined
 ```
-
+# 7.
 ```javascript
 let a = 1;
 const b = ++a;
