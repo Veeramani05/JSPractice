@@ -2,7 +2,7 @@
 
 JavaScript small problems
 
-# 1.
+#### 1.
 
 ```javascript
 console.log(1);
@@ -35,7 +35,7 @@ setTimeout(() => {
 // Ans : 1,2,3,4,7,5,6,9,8
 ```
 
-# 2.
+#### 2.
 
 ```javascript
 new Promise((resolve, reject) => {
@@ -53,7 +53,7 @@ new Promise((resolve, reject) => {
 
 // Ans : 1
 ```
-# 3.
+#### 3.
 ```javascript
 Promise.resolve(1)
   .then(() => 2)
@@ -64,7 +64,7 @@ Promise.resolve(1)
 
 // Ans : 6
 ```
-# 4.
+#### 4.
 ```javascript
 Promise.resolve(1)
   .then((val) => {
@@ -97,7 +97,7 @@ Promise.resolve(1)
 
 // Ans: 1,2,undefined, 3,undefined,4, undefined, undefined
 ```
-# 5.
+#### 5.
 ```javascript
 for (var i = 0; i < 5; i++) {
   setTimeout(() => console.log(i), 0); // 5,5,5,5,5
@@ -108,10 +108,10 @@ for (let i = 0; i < 5; i++) {
 }
 //Ans : 0,1,2,3,4
 ```
-# 6.
+#### 6.
 ```javascript
 const obj = {
-  dev: "VEERA",
+  dev: "VEERA"
   a: function () {
     return this.dev; // VEERA
   },
@@ -155,7 +155,7 @@ console.log(obj.g()); // undefined
 console.log(obj.h()()); // undefined
 console.log(obj.i()()); // undefined
 ```
-# 7.
+#### 7.
 ```javascript
 let a = 1;
 const b = ++a;
@@ -164,4 +164,21 @@ console.log(a); // 3
 console.log(b); // 2
 console.log(c); // 2
 //Ans : 3,2,2
+```
+
+
+#### 8
+```javascript
+var demo = "Hello";
+let getDemo = (demo) => {
+    var test = function () {
+        return demo + " My friend";
+    }
+    demo = demo + "How are you";
+    return test();
+}
+getDemo(demo);
+// Ans : Hello How are you my friend.
+
+
 ```
